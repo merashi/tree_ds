@@ -12,5 +12,12 @@ public class Tree {
             this.rightchild = null;
         }
     }
+    protected Node root;
+    public Tree(){
+                this.root = null;
+    }
+    protected Tree(Node root){
+        this.root = root;
+    }
 
 }
