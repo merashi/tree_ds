@@ -17,5 +17,18 @@ public class SelectionSort {
         }
         System.out.println("");
     }
+    public void sort() {
+        int i,j,min;
+        for (i = 0 ; i < numElements - 1; i++) {
+            min = i;
+            for ( j = i+1; j < numElements; j++) {
+                if (array[j] > array[min]) {
+                    min = j;
+
+                    swap(i, min);
+                }
+            }
+        }
+    }
 
 }
