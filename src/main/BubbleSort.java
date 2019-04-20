@@ -7,7 +7,9 @@ public class BubbleSort {
         array = new long[n];
         numElements = 0;
     }
-
-
+    public void insert(long value) {
+        array[numElements] = value;
+        numElements++;
+    }
 
 }
