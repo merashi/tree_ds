@@ -17,6 +17,15 @@ public class BubbleSort {
         }
         System.out.println();
     }
+    public void sort() {
+        for (int i = numElements - 1; i > 1; i--) {
+            for (int j = 0; j < i; j++) {
+                if (array[j] > array[j + 1]) {
+                    swap(j, j + 1);
+                }
+            }
+        }
 
+    }
 
 }
