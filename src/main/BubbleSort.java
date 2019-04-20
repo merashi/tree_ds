@@ -11,5 +11,12 @@ public class BubbleSort {
         array[numElements] = value;
         numElements++;
     }
+    public void display() {
+        for (int i = 0; i < numElements; i++) {
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+    }
+
 
 }
